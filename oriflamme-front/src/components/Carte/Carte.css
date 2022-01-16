@@ -1,0 +1,25 @@
+.Hand .Carte {
+  height: auto;
+  width: 8rem;
+  margin-right: 1rem;
+  cursor: grab;
+}
+
+.Hand .Carte:hover {
+  transform: scale(1.2);
+}
+
+.Board .Carte {
+  height: auto;
+  width: 6rem;
+  margin-right: 1rem;
+  cursor: grab;
+}
+
+.Board .Carte:hover {
+  transform: scale(1.2);
+}
+
+.mousedown {
+  cursor: grabbing !important;
+}

@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 2rem;
+}
+
+nav h1 {
+    font-size: 3rem;
+}

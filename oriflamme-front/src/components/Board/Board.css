@@ -1,0 +1,25 @@
+.Board {
+  width: 75vw;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: var(--bleu);
+}
+
+.Board div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Board div .carte {
+  width: 6rem;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  height: 10rem;
+  background-color: var(--blanc);
+  border: 1px solid var(--bleu);
+}
